@@ -55,6 +55,8 @@ def editar_usuario():
         entry_endereco_editar.insert(tk.END, usuario['Endereço'])
         entry_endereco_editar.grid(row=3, column=1, padx=10, pady=5)
 
+
+#funcao de editar cadastros
         def salvar_edicao():
             usuarios[index] = {
                 'ID': usuario['ID'],
